@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <header className="header">
       <nav className="nav">
-        <Link to="/" className="logo nav-link">
+        <Link to="/react-portfolio" className="logo nav-link">
           Luis Alvarez{" "}
         </Link>
         <button
