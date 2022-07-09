@@ -16,7 +16,7 @@ function App() {
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/works" element={<Works />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/*" element={<Navigate to={"/react-portfolio"} />} />
+        <Route path="*" element={<Navigate to="/react-portfolio"/>} />
       </SlideRoutes>
     </>
   );
