@@ -12,11 +12,11 @@ function App() {
     <>
       <Navbar />
       <SlideRoutes basename={process.env.PUBLIC_URL}>
-        <Route index path="/react-portfolio" element={<Hero />} />
+        <Route exact index path="/" element={<Hero />} />
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/works" element={<Works />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<Navigate to="/react-portfolio"/>} />
+        <Route path="*" element={<Navigate to="/"/>} />
       </SlideRoutes>
     </>
   );
